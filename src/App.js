@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" style={{ display: 'block', margin: '0 auto', marginTop: '0px' }} />
-      <h1 className="main-text">DND Unlimited</h1>
+      <h1 className="main-text">DBD Unlimited</h1>
       <p className="main-text">Welcome to DND Unlimited, your ultimate resource for all things Dungeons & Dragons!</p>
       <p className="main-text">Explore our extensive collection of homebrew content, including unique character classes, spells, and adventures.</p>
       <button className="characters-btn" onClick={() => navigate('/characters')}>Characters</button>
